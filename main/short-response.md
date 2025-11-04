@@ -10,4 +10,10 @@ Developers use branches because they have to avoid interfering with the other de
 
 Git is a distributed version control it is used to save code and for many devs to create different code. Github is a cloud based service that allows devs to manage and control changes to their work. It is used to store code, control code and make collabtation easier. Git and Github work together by making collabration easier. Git helps developers create multiple branches of code while github helps developers to store code and to control the code.
 
-4. 
+4. What is wrong witht he following command sequence? What should be the corrected command sequence?
+
+git commit -m "saving work"
+git add .
+git ppush
+
+Git add . is at after git commit -m. It should go before git commit -m "saving work"
